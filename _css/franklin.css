@@ -3,10 +3,9 @@
 ================================================================== */
 
 :root {
-  --block-background: hsl(0, 0%, 94%);
-  --output-background: hsl(0, 0%, 98%);
+  --block-background: #f8f8f8;
   --small: 14px;
-  --normal: 19px;
+  --normal: 17px;
   --text-color: hsv(0, 0%, 20%);
 }
 
@@ -15,7 +14,7 @@
 ================================================================== */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
@@ -103,6 +102,110 @@ html {
   }
 }
 
+.cvblock {
+	background-color: aliceblue;
+	border-left: 5px solid cornflowerblue;
+	border-radius: 10px;
+	padding: 2px;
+	padding-right: 10px;
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+
+.algblock {
+	background-color: aliceblue;
+	border-left: 5px solid cornflowerblue;
+	border-radius: 10px;
+	padding: 2px;
+	padding-right: 10px;
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+
+.codeaside {
+	background-color: white;
+	border-left: 5px solid cornflowerblue;
+	border-radius: 0px;
+	padding: 0px;
+	padding-right: 0px;
+	padding-left: 5px;
+	margin-left: 0em;
+	margin-bottom: 0em;
+	font-weight: normal;
+}
+
+.note {
+	margin-top: 1.5em;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aliceblue;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+.note .title {
+	font-size: 105%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-left: 7px;
+	padding-top: 2px;
+	color: white;
+	background: cornflowerblue;
+}
+
+.note .content {
+	padding: 10px;
+	padding-left: 10px;
+	padding-left: 12px;
+}
+
+.box-green {
+	margin-top: 1.5em;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: palegreen;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+.box-green .title {
+	font-size: 105%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-left: 7px;
+	padding-top: 2px;
+	color: white;
+	background: limegreen;
+}
+
+.box-red {
+	margin-top: 1.5em;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: mistyrose;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+.box-red .title {
+	font-size: 105%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-left: 7px;
+	padding-top: 2px;
+	color: white;
+	background: crimson;
+}
+
+.content {
+	padding: 10px;
+	padding-left: 10px;
+	padding-left: 12px;
+}
+
 /* ==================================================================
     TITLES
 ================================================================== */
@@ -163,6 +266,23 @@ td {
   font-size: var(--small);
   padding: 10px;
   border: 1px solid black;
+}
+
+.cv-table th, 
+.cv-table tr,
+.cv-table tbody,
+.cv-table td {
+  background: white;
+  font-size: var(--normal);
+  padding: 10px;
+  border: 0px solid black;
+  text-align: left;
+  font-weight: normal;
+}
+
+.cv-table tr:first-of-type > th {
+  text-align: left;
+  font-weight: bold;
 }
 
 .franklin-content blockquote {
@@ -276,11 +396,6 @@ body { counter-reset: eqnum; }
   padding-right: 5px;
 }
 
-.nonumber .katex-display::after {
-  counter-increment: nothing;
-  content: "";
-}
-
 /* ==================================================================
     CODE & HIGHLIGHT.JS
 ================================================================== */
@@ -317,11 +432,6 @@ code {
 .hljs-metas { color: red; }
 
 .hljs-metap { color: rgb(51, 131, 231); }
-
-.code-output {
-  background: var(--output-background);
-  border: 1px dashed #dbdbdb;
-}
 
 /* ==================================================================
     BOXES
