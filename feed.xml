@@ -9,52 +9,71 @@
 
   <channel>
     <title>
-      <![CDATA[  brian l frost  ]]>
+      <![CDATA[  Nikola Janjušević  ]]>
     </title>
-    <link> https://brian-frost-laplante.github.io </link>
+    <link> https://nikopj.github.io </link>
     <description>
-      <![CDATA[  my website  ]]>
+      <![CDATA[  Nikola&#39;s Вебсајт  ]]>
     </description>
     <atom:link
-      href="https://brian-frost-laplante.github.io/feed.xml"
+      href="https://nikopj.github.io/feed.xml"
       rel="self"
       type="application/rss+xml" />
 
 
 <item>
   <title>
-    <![CDATA[  More goodies  ]]>
+    <![CDATA[  Deep Convolutional Dictionary Learning  ]]>
   </title>
-  <link>  </link>
-  <guid>  </guid>
+  <link> https://nikopj.github.io/projects/dcdl/index.html </link>
+  <guid> https://nikopj.github.io/projects/dcdl/index.html </guid>
   <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg" alt="" />  ]]>
+    <![CDATA[  CDLNet  ]]>
   </description>  
     
-  <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>  
+  <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
-    <atom:name>Brian Frost</atom:name>
+    <atom:name>Nikola Janjušević</atom:name>
   </atom:author>
         
 </item>
 
 <item>
   <title>
-    <![CDATA[  Code blocks  ]]>
+    <![CDATA[  My auto-reload setup for writing LATEX documents in VIM  ]]>
   </title>
-  <link> https://brian-frost-laplante.github.io/menu1/index.html </link>
-  <guid> https://brian-frost-laplante.github.io/menu1/index.html </guid>
+  <link> https://nikopj.github.io/blog/auto-reload-latex/index.html </link>
+  <guid> https://nikopj.github.io/blog/auto-reload-latex/index.html </guid>
   <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+    <![CDATA[  autolatex  ]]>
   </description>  
     
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
-    <atom:name>Brian Frost</atom:name>
+    <atom:name>Nikola Janjušević</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Staying organized while doing research &#40;arxivmv&#41;.  ]]>
+  </title>
+  <link> https://nikopj.github.io/blog/arxivmv/index.html </link>
+  <guid> https://nikopj.github.io/blog/arxivmv/index.html </guid>
+  <description>
+    <![CDATA[  arxivmv  ]]>
+  </description>  
+    
+  <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Nikola Janjušević</atom:name>
   </atom:author>
         
 </item>
