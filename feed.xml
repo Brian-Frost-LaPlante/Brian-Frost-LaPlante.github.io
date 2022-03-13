@@ -23,53 +23,15 @@
 
 <item>
   <title>
-    <![CDATA[  Deep Convolutional Dictionary Learning  ]]>
+    <![CDATA[  This is a little test post.  ]]>
   </title>
-  <link> https://brian-frost-laplante.github.io/projects/dcdl/index.html </link>
-  <guid> https://brian-frost-laplante.github.io/projects/dcdl/index.html </guid>
+  <link> https://brian-frost-laplante.github.io/blog/testpost/index.html </link>
+  <guid> https://brian-frost-laplante.github.io/blog/testpost/index.html </guid>
   <description>
-    <![CDATA[  CDLNet  ]]>
+    <![CDATA[  a test post  ]]>
   </description>  
     
-  <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>brian l frost</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  My auto-reload setup for writing LATEX documents in VIM  ]]>
-  </title>
-  <link> https://brian-frost-laplante.github.io/blog/auto-reload-latex/index.html </link>
-  <guid> https://brian-frost-laplante.github.io/blog/auto-reload-latex/index.html </guid>
-  <description>
-    <![CDATA[  autolatex  ]]>
-  </description>  
-    
-  <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>brian l frost</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Staying organized while doing research &#40;arxivmv&#41;.  ]]>
-  </title>
-  <link> https://brian-frost-laplante.github.io/blog/arxivmv/index.html </link>
-  <guid> https://brian-frost-laplante.github.io/blog/arxivmv/index.html </guid>
-  <description>
-    <![CDATA[  arxivmv  ]]>
-  </description>  
-    
-  <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>  
+  <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
