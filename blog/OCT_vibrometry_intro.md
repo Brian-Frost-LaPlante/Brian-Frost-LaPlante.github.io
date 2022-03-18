@@ -32,7 +32,17 @@ This is the first of a series of blog posts on the use of spectral domain optica
 
 ## The capabilities of OCT
 
-OCT is a powerful modality for imaging at a depth with a relatively long working distance and fine resolution. It fills the gap between ultrasound, famously having poor resolution but capable of imaging quite deep into tissues, and confocal microscopy which has incredible resolution but short depth field of view. Field of view and resolution are a tradeoff, with low-wavelength OCT systems being able to achieve ~1 $\mu$m resolution but with only ~300 $\mu$m depth of focus. On the other hand, systems at higher wavelength can achieve a depth field of view of ~3 mm, at the cost of increasing the resolution to ~8 $\mu$m. Through scanning the beam of the system along two axes, OCT can be used to generate 3-D volumetric images. The lateral resolution is determined, mostly, by the usual diffraction limit.
+OCT is a powerful modality for imaging at a depth with a relatively long working distance and fine resolution. It fills the gap between ultrasound, famously having poor resolution but capable of imaging quite deep into tissues, and confocal microscopy which has incredible resolution but short depth field of view. Field of view and resolution are a tradeoff, with low-wavelength OCT systems being able to achieve ~1 $\mu$m resolution but with only ~300 $\mu$m depth of focus. On the other hand, systems at higher wavelength can achieve a depth field of view of ~3 mm, at the cost of increasing the resolution to ~8 $\mu$m. Through scanning the beam of the system along two axes, OCT can be used to generate 1D intensity maps, 2-D images, and 3-D volumetric images. The lateral resolution is determined, mostly, by the usual diffraction limit. The images below show the three dimensions of OCT scans in the retina ([source](https://www.researchgate.net/figure/OCT-Scanning-and-scanner-coordinate-system-schematic-Left-1D-acquisition-A-scan-A_fig1_228083165)).
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/octimages.jpeg">
+~~~
+@@
+@@
+
+
 
 While volumetric imaging is the most common application of OCT, it also sees niche use as an at-depth vibrometer. Through a process known as spectral domain phase microscopy (SDPM), sub-pixel motions of structures can be measured with angstrom-scale resolution. This can be performed at any point along the depth of the scan, meaning the motions of multiple imaged structures can be measured at once.
 
@@ -44,7 +54,26 @@ Sound is a pressure wave, wherein molecules in a medium like water and air compr
 
 This is where the magic happens. The basilar membrane (BM) is a plate-like structure which follows the cochlea's spiral. The fluid pressure wave incurs a mechanical vibration at the BM, whose mechanical properties control the form of this "traveling wave". From the base (nearest the oval window) to the apex (the tip of the snail shell), the stiffness of the BM decreases. As a result, the position at which certain frequencies cause higher vibrations varies along the length of the cochlea, with lower frequencies peaking at the apex and higher frequencies peaking at the base. This lends the BM its frequency analyzer characteristics.
 
-Atop the BM lies the organ of Corti, which contains many structural and functional cells. The inner and outer hair cells (IHCs, OHCs) are the most interesting of these. They get their name from the tiny hair-like stereocilia which lie upon their apex. As the organ of Corti vibrates with the BM, these stereocilia push against the gell-like tectorial membrane (TM), causing them to tilt back and forth. Together, the BM, organ of Corti and TM are reffered to as the organ of Corti complex (OCC).
+The gif below ([source](http://web.tbgu.ac.jp/ait/wada/wadalab/vib-bm-e.html)) does a nice job of showing this. This is the BM "unraveled" from its snail shape, and we observe its response to two different tones. The 2 kHz tone generate a peak near the apex, while the higher-frequency 6 kHz tone tone generate a peak further basal. This place-frequency map, none as the tonotopic map, is what allows our ear and eventually our brain to discriminate between frequencies. Each frequency peaks at a given place, the "best place" for that frequency, and conversely each position on the BM has a "best frequency" (BF) at which it vibrates maximally.
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/travelingwave.gif">
+~~~
+@@
+@@
+
+Atop the BM lies the organ of Corti, which contains many structural and functional cells. The inner and outer hair cells (IHCs, OHCs) are the most interesting of these. They get their name from the tiny hair-like stereocilia which lie upon their apex. As the organ of Corti vibrates with the BM, these stereocilia push against the gell-like tectorial membrane (TM), causing them to tilt back and forth. Together, the BM, organ of Corti and TM are reffered to as the organ of Corti complex (OCC). Below is a nice image of cochlear anatomy ([source](https://www.researchgate.net/figure/Anatomy-of-the-Cochlea-Cartoon-illustration-of-the-cochlea-Panel-a-A-split-cochlea_fig3_319038975)).
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/anatomy.jpeg">
+~~~
+@@
+@@
+
 
 The stereocilia contain mechanically gated ion channels, which open and close as they push against the TM. This leads to an oscillatory current, which varies along the length of the cochlea in the same frequency analyzer fashion. The IHC current leads to neural transmission through the auditory nerve, which eventually leads to the brain where it is processed to provide us the sense that we have heard something, broken down into its frequencies to be interpreted as speech, music, noise, birds.
 
@@ -52,11 +81,31 @@ The OHC walls contain an electromotile protein called prestin. As the voltage wi
 
 Our physiology lesson is out of the way... for now. So back to our question -- how does this anatomy and physiology compare to OCT resolutions? In the base of the gerbil cochlea where our data are taken, the OHCs are 10 $\mu$m wide and 40 $\mu$m tall. This means that our system, with 8 $\mu$m resolution, cannot really make out the difference between individual outer hair cells well, but can certainly isolate them from other nearby structures. The motions of the OHCs and BM measured in our experimenta range from 3 angstroms at the threshold of hearing (~0 dB SPL) to about 20 nm at 80 dB SPL. At lower SPL, these measurements usually lie a within the noise level, but we can make high-quality measurements at SPLs above ~20 dB. For reference, rustling leaves make noise at about 20 dB SPL, normal conversation occurs at about 60 dB SPL and rock concerts expose you to noise around 120 dB SPL.
 
+Below is one of my favorite graphics from "The Cochlea," editef by Dallos, Popper and Fay. It illustrates the inredible sensitivity of the mammalian cochlea to sound, with stereocilia needing only to move by the diameter of three hydrogen atoms to create a sound stimulus.
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/stereociliagraphic.jpg">
+~~~
+@@
+@@
+
+
 Hopefully you are now convinced that OCT is well-fit for cochlear vibrometry research, but I would have nothing to write if these measurements were perfect. In fact, a few problems plague OCT measurements of inner ear vibrations, but before I expound upon them I should briefly describe how OCT works.
 
 ## OCT imaging
 
-The OCT architecture is that of a Michaelson-Morley interferometer. Light from a wideband light source is split into two -- a reference beam which travels some distance $z_r$ to a mirror and is reflected back entirely unobstructed, and a sample beam which travels into the sample to be imaged, being reflected back at every reflective surface within the sample. The two beams arrive back at the beam splitter, superpose, and then pass through a diffraction grating. The intensity $I(K)$ is recorded as a function of the wavenumber $k=2\pi /\lambda$ at the output of the diffraction grating.
+The OCT architecture is that of a Michaelson-Morley interferometer. Light from a wideband light source is split into two -- a reference beam which travels some distance $z_r$ to a mirror and is reflected back entirely unobstructed, and a sample beam which travels into the sample to be imaged, being reflected back at every reflective surface within the sample. The two beams arrive back at the beam splitter, superpose, and then pass through a diffraction grating. The intensity $I(K)$ is recorded as a function of the wavenumber $k=2\pi /\lambda$ at the output of the diffraction grating. Below is a schematic of the SD-OCT architecture ([source](https://sites.google.com/site/obeluwa/research/oct/introduction-to-oct?tmpl=%2Fsystem%2Fapp%2Ftemplates%2Fprint%2F&showPrintDialog=1)).
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/octarch.png">
+~~~
+@@
+@@
+
 
 Writing this mathematically, suppose $S(k)$ is the intensity spectrum of the wideband light source, $E_r$ is the electric field from the reference path, and $E_s$ is the electric field from the sample path. Assume half of the power has gone to the reference, and half has gone to the sample so that each beam begins with field amplitude $\sqrt{S(k)/2}$. Arriving at the beam splitter post-reflection, the the reference beam will have travelled $2z_r$, and will have had its amplitude altered by a factor of the reference mirror's reflectivity $r_r$. We can thereby write
 
@@ -129,6 +178,18 @@ d(t) = \frac{\text{Arg}(i_0(z_p))}{2nk_0}.
 \end{equation}
 
 This process, known as spectral domain phase microscopy, allows us to measure OCC vibrations in the angstrom range. Moreover, an M-Scan is a series of A-Scans taken over time, which record intensity at every pixel along a line into the sample. That is, we can record the vibrations at every pixel within an A-Scan using this method, meaning we could measure, for example, BM and OHC at the same time.
+
+Below is a nice example of OCT vibrometry from our group ([source](http://www.columbia.edu/cu/fowlerlab/pub/FallahStrimbuOlson2019.pdf)). The image shows A B-Scan of the OCC, A-Scans at the center of this B-Scan with OHC and BM positions labeled, and the frequency responses of these structures at various SPLs measured using SDPM.
+
+@@row
+@@container
+~~~
+<img class="left" style="width:100%;" src="/assets/octcochlea.png">
+~~~
+@@
+@@
+
+
 
 ## What's wrong, Brian?
 
