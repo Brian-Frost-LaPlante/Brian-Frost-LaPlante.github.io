@@ -9,14 +9,14 @@
 
   <channel>
     <title>
-      <![CDATA[  brian l frost  ]]>
+      <![CDATA[  {{fd2rss website_title}}  ]]>
     </title>
-    <link> https://brian-frost-laplante.github.io </link>
+    <link> {{website_url}} </link>
     <description>
-      <![CDATA[  brian&#39;s website  ]]>
+      <![CDATA[  {{fd2rss website_description}}  ]]>
     </description>
     <atom:link
-      href="https://brian-frost-laplante.github.io/feed.xml"
+      href="{{fd_rss_feed_url}}"
       rel="self"
       type="application/rss+xml" />
 
@@ -32,25 +32,6 @@
   </description>  
     
   <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>brian l frost</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Introduction to OCT Vibrometry  ]]>
-  </title>
-  <link> https://brian-frost-laplante.github.io/blog/OCT_vibrometry_intro/index.html </link>
-  <guid> https://brian-frost-laplante.github.io/blog/OCT_vibrometry_intro/index.html </guid>
-  <description>
-    <![CDATA[  octvib  ]]>
-  </description>  
-    
-  <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
