@@ -13,7 +13,7 @@ descr = """
 ~~~
 <img class="left" style="width:30%;" src="/assets/telesto.jpg">
 ~~~
-This is the first of a series of blog posts on the use of spectral domain optical coherence tomography (OCT) for measuring three-dimensional micromechanical motions in the organ of Corti complex (OCC), the mammalian hearing organ. In this first post, I will be covering the theory behind OCT imaging and vibrometry, and discussing why this modality is so well-suited for the study of cochlear micromechanics. Image: Thorlabs Telesto III SD-OCT system.
+This is my first blog post on the use of spectral domain optical coherence tomography (OCT) for measuring three-dimensional micromechanical motions in the organ of Corti complex (OCC), the mammalian hearing organ. In this first post, I will be covering the theory behind OCT imaging and vibrometry, and discussing why this modality is so well-suited for the study of cochlear micromechanics. Image: Thorlabs Telesto III SD-OCT system.
 @@
 @@
 
@@ -203,6 +203,6 @@ Consider the common case where BM and OHC are measured within a single A-Scan. W
 
 The second ambiguity comes from the fact that SDPM measures only motion along the optical $z$ axis. This axis has no physiological significance inherently, so this means that we are really measuring projection of a three-dimensional motion onto a contrived single-dimensional axis. With no knowledge of what anatomical components this projection weights most heavily, we cannot say much about what the measurements mean. Moreover, a single one-dimensional measurement can be used only to gain limited insight into a three-dimensional motion, especially if the angle is not something inherently physiologically relevant. 
 
-My goal, along with many other researchers in the field, is to design a data acquisition scheme which may account for both of these issues. In my next post in this series, I will be describing my proposed solution to the first of these problems, along with some published data on the topic. See you in the future.
+My goal, along with many other researchers in the field, is to design a data acquisition scheme which may account for both of these issues. In future posts and publications, I will be describing my proposed solutions to these problems, along with some published data on the topic. See you in the future.
 
 Thanks for reading! Feel free to email any questions to me at b.frost@columbia.edu
