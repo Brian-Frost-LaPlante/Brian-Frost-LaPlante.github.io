@@ -1,0 +1,3 @@
+ArgumentError: Package Symbolics not found in current path:
+- Run `import Pkg; Pkg.add("Symbolics")` to install the Symbolics package.
+
