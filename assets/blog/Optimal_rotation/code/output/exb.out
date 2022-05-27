@@ -1,3 +1,23 @@
-ArgumentError: Package Latexify not found in current path:
-- Run `import Pkg; Pkg.add("Latexify")` to install the Latexify package.
-
+latexify(SBesl) = L"\begin{equation}
+\left[
+\begin{array}{cccc}
+v_{1} x_{1} + v_{2} x_{2} + v_{3} x_{3} & v_{2} x_{3} - v_{3} x_{2} & v_{3} x_{1} - v_{1} x_{3} & v_{1} x_{2} - v_{2} x_{1} \\
+v_{2} x_{3} - v_{3} x_{2} & v_{1} x_{1} - v_{2} x_{2} - v_{3} x_{3} & v_{1} x_{2} + v_{2} x_{1} & v_{3} x_{1} + v_{1} x_{3} \\
+v_{3} x_{1} - v_{1} x_{3} & v_{1} x_{2} + v_{2} x_{1} & v_{2} x_{2} - v_{1} x_{1} - v_{3} x_{3} & v_{2} x_{3} + v_{3} x_{2} \\
+v_{1} x_{2} - v_{2} x_{1} & v_{1} x_{3} + v_{3} x_{1} & v_{2} x_{3} + v_{3} x_{2} & v_{3} x_{3} - v_{1} x_{1} - v_{2} x_{2} \\
+\end{array}
+\right]
+\end{equation}
+"
+latexify(SFrost) = L"\begin{equation}
+\left[
+\begin{array}{cccc}
+v_{1} x_{1} + v_{2} x_{2} + v_{3} x_{3} & v_{2} x_{3} - v_{3} x_{2} & v_{3} x_{1} - v_{1} x_{3} & v_{1} x_{2} - v_{2} x_{1} \\
+v_{2} x_{3} - v_{3} x_{2} & v_{1} x_{1} - v_{2} x_{2} - v_{3} x_{3} & v_{1} x_{2} + v_{2} x_{1} & v_{1} x_{3} + v_{3} x_{1} \\
+v_{3} x_{1} - v_{1} x_{3} & v_{1} x_{2} + v_{2} x_{1} & v_{2} x_{2} - v_{1} x_{1} - v_{3} x_{3} & v_{2} x_{3} + v_{3} x_{2} \\
+v_{1} x_{2} - v_{2} x_{1} & v_{3} x_{1} + v_{1} x_{3} & v_{2} x_{3} + v_{3} x_{2} & v_{3} x_{3} - v_{1} x_{1} - v_{2} x_{2} \\
+\end{array}
+\right]
+\end{equation}
+"
+isequal(SBesl, SFrost) = true

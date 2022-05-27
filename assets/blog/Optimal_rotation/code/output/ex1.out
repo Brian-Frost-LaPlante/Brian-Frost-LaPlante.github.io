@@ -1,3 +1,11 @@
-ArgumentError: Package Latexify not found in current path:
-- Run `import Pkg; Pkg.add("Latexify")` to install the Latexify package.
-
+AtB = L"\begin{equation}
+\left[
+\begin{array}{cccc}
+a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{y} b_{z} - a_{z} b_{y} & a_{z} b_{x} - a_{x} b_{z} & a_{x} b_{y} - a_{y} b_{x} \\
+a_{z} b_{y} - a_{y} b_{z} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{x} b_{y} - a_{y} b_{x} & a_{x} b_{z} - a_{z} b_{x} \\
+a_{x} b_{z} - a_{z} b_{x} & a_{y} b_{x} - a_{x} b_{y} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{y} b_{z} - a_{z} b_{y} \\
+a_{y} b_{x} - a_{x} b_{y} & a_{z} b_{x} - a_{x} b_{z} & a_{z} b_{y} - a_{y} b_{z} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} \\
+\end{array}
+\right]
+\end{equation}
+"

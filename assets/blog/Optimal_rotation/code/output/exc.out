@@ -1,3 +1,16 @@
-ArgumentError: Package Latexify not found in current path:
-- Run `import Pkg; Pkg.add("Latexify")` to install the Latexify package.
-
+zwcheck = L"\begin{equation}
+\left[
+\begin{array}{cc}
+\sqrt{w_{i}^{2} + w_{r}^{2}} \sqrt{z_{i}^{2} + z_{r}^{2}} & \arctan\left( w_{i}, w_{r} \right) + \arctan\left( z_{i}, z_{r} \right) \\
+\end{array}
+\right]
+\end{equation}
+"
+zwpolar = L"\begin{equation}
+\left[
+\begin{array}{cc}
+\sqrt{\left( w_{r} z_{i} + w_{i} z_{r} \right)^{2} + \left( w_{r} z_{r} - w_{i} z_{i} \right)^{2}} & \arctan\left( w_{r} z_{i} + w_{i} z_{r}, w_{r} z_{r} - w_{i} z_{i} \right) \\
+\end{array}
+\right]
+\end{equation}
+"

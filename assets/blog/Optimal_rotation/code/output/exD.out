@@ -1,3 +1,9 @@
-ArgumentError: Package Latexify not found in current path:
-- Run `import Pkg; Pkg.add("Latexify")` to install the Latexify package.
-
+latexify(LHS) = L"\begin{equation}
+b_{x} \left( q_{2} \left( a_{y} q_{1} + a_{z} q_{0} - a_{x} q_{2} \right) + q_{0} \left( a_{x} q_{0} + a_{z} q_{2} - a_{y} q_{3} \right) - q_{1} \left(  - a_{x} q_{1} - a_{y} q_{2} - a_{z} q_{3} \right) - q_{3} \left( a_{y} q_{0} + a_{x} q_{3} - a_{z} q_{1} \right) \right) + b_{y} \left( q_{3} \left( a_{x} q_{0} + a_{z} q_{2} - a_{y} q_{3} \right) + q_{0} \left( a_{y} q_{0} + a_{x} q_{3} - a_{z} q_{1} \right) - q_{1} \left( a_{y} q_{1} + a_{z} q_{0} - a_{x} q_{2} \right) - q_{2} \left(  - a_{x} q_{1} - a_{y} q_{2} - a_{z} q_{3} \right) \right) + b_{z} \left( q_{0} \left( a_{y} q_{1} + a_{z} q_{0} - a_{x} q_{2} \right) + q_{1} \left( a_{y} q_{0} + a_{x} q_{3} - a_{z} q_{1} \right) - q_{2} \left( a_{x} q_{0} + a_{z} q_{2} - a_{y} q_{3} \right) - q_{3} \left(  - a_{x} q_{1} - a_{y} q_{2} - a_{z} q_{3} \right) \right)
+\end{equation}
+"
+latexify(RHS) = L"\begin{equation}
+\left( a_{y} q_{0} + a_{x} q_{3} - a_{z} q_{1} \right) \left( b_{y} q_{0} + b_{z} q_{1} - b_{x} q_{3} \right) + \left( b_{x} q_{0} + b_{y} q_{3} - b_{z} q_{2} \right) \left( a_{x} q_{0} + a_{z} q_{2} - a_{y} q_{3} \right) + \left( a_{y} q_{1} + a_{z} q_{0} - a_{x} q_{2} \right) \left( b_{x} q_{2} + b_{z} q_{0} - b_{y} q_{1} \right) + \left(  - a_{x} q_{1} - a_{y} q_{2} - a_{z} q_{3} \right) \left(  - b_{x} q_{1} - b_{y} q_{2} - b_{z} q_{3} \right)
+\end{equation}
+"
+equalitycheck = false

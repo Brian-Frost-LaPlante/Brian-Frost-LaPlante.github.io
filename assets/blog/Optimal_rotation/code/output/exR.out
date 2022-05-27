@@ -1,3 +1,20 @@
-ArgumentError: Package Latexify not found in current path:
-- Run `import Pkg; Pkg.add("Latexify")` to install the Latexify package.
-
+latexify(QMatMethodW) = L"\begin{equation}
+\left[
+\begin{array}{c}
+a \left( a v_{x} + c v_{z} - d v_{y} \right) - b \left(  - b v_{x} - c v_{y} - d v_{z} \right) - d \left( a v_{y} + d v_{x} - b v_{z} \right) - c \left( c v_{x} - b v_{y} - a v_{z} \right) \\
+a \left( a v_{y} + d v_{x} - b v_{z} \right) - b \left( b v_{y} + a v_{z} - c v_{x} \right) - c \left(  - b v_{x} - c v_{y} - d v_{z} \right) - d \left( d v_{y} - a v_{x} - c v_{z} \right) \\
+a \left( b v_{y} + a v_{z} - c v_{x} \right) - c \left( a v_{x} + c v_{z} - d v_{y} \right) - b \left( b v_{z} - a v_{y} - d v_{x} \right) - d \left(  - b v_{x} - c v_{y} - d v_{z} \right) \\
+\end{array}
+\right]
+\end{equation}
+"
+latexify(RMatMethodW) = L"\begin{equation}
+\left[
+\begin{array}{c}
+v_{y} \left(  - 2 a d + 2 b c \right) + v_{z} \left( 2 a c + 2 b d \right) + v_{x} \left( 1 - 2 c^{2} - 2 d^{2} \right) \\
+v_{z} \left(  - 2 a b + 2 c d \right) + v_{x} \left( 2 a d + 2 b c \right) + v_{y} \left( 1 - 2 b^{2} - 2 d^{2} \right) \\
+v_{x} \left(  - 2 a c + 2 b d \right) + v_{y} \left( 2 a b + 2 c d \right) + v_{z} \left( 1 - 2 b^{2} - 2 c^{2} \right) \\
+\end{array}
+\right]
+\end{equation}
+"
