@@ -10,6 +10,7 @@ end # hide
 @variables  x_1 x_2 x_3 v_1 v_2 v_3 SIGMA A DELTA SBesl SFrost
 
 x = [x_1;x_2;x_3]
+v = [v_1;v_2;v_3]
 XMat = QuatMat([0;x])
 VMatHat = [0   -v_1 -v_2 -v_3
 		   v_1  0    v_3 -v_2

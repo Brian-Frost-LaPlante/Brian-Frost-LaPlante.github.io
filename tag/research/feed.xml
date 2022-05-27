@@ -9,14 +9,14 @@
 
   <channel>
     <title>
-      <![CDATA[  {{fd2rss website_title}}  ]]>
+      <![CDATA[  brian l frost  ]]>
     </title>
-    <link> {{website_url}} </link>
+    <link> https://brian-frost-laplante.github.io </link>
     <description>
-      <![CDATA[  {{fd2rss website_description}}  ]]>
+      <![CDATA[  brian&#39;s website  ]]>
     </description>
     <atom:link
-      href="{{fd_rss_feed_url}}"
+      href="https://brian-frost-laplante.github.io/feed.xml"
       rel="self"
       type="application/rss+xml" />
 

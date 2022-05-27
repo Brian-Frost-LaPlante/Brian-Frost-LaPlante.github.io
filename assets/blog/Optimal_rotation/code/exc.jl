@@ -1,5 +1,4 @@
 # This file was generated, do not modify it. # hide
-import Pkg; Pkg.add("Symbolics") #hide
 using Symbolics, LinearAlgebra, Latexify # hide
 function cprod(z,w) 	     	     # Complex product
 	[(z[1]*w[1]-z[2]*w[2]) (z[1]*w[2]+z[2]*w[1])]
