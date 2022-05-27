@@ -142,6 +142,7 @@ To see this, we need a *third* way to think about complex numbers -- polar form.
 The product of two complex numbers $z_1=(a,b)$ and $z_2(x,y)$ in rectangular form is $z_1z_2=(ax-by,ay+bx)$. It can be quickly shown that in polar coordinates, this is precisely $z_1z_2 = (r_1r_2,\theta_1 + \theta_2)$. That is, multiplying two complex numbers 1) multiplies their magnitudes and 2) adds their phases. See the CAS code below, where $\texttt{zwcheck}$ is the product performed in this way, and $\texttt{zwpolar}$ is the product performed via standard complex product. They are equal by simple expansion: 
 
 ```julia:./code/exc
+import Pkg; Pkg.add("Symbolics") #hide
 using Symbolics, LinearAlgebra, Latexify # hide
 function cprod(z,w) 	     	     # Complex product
 	[(z[1]*w[1]-z[2]*w[2]) (z[1]*w[2]+z[2]*w[1])]
