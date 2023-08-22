@@ -7,7 +7,7 @@
 ~~~
 <img class="left" style ="width:35%;" src="/assets/hugoball.png">
 ~~~
-My name is Brian Frost, and I'm a third-year electrical engineering PHD candidate at Columbia University. I am under dual advisement by Christine Hendon and Elizabeth Olson, working mostly at CUIMC's Fowler Lab. I received my BE in electrical engineering from The Cooper Union for the Advancement of Science and Art, and my MS in electrical engineering from Columbia university.
+My name is Brian Frost, and I'm an electrical engineering PHD candidate at Columbia University. I am under dual advisement by Christine Hendon and Elizabeth Olson, working mostly at CUIMC's Fowler Lab. I received my BEng in electrical engineering from The Cooper Union for the Advancement of Science and Art, and my MS in electrical engineering from Columbia university.
 
 My research focuses on applications of spectral domain optical coherence tomography (OCT) to the study of cochlear mechanics. In particular, I am interested in reconstructing the three-dimensional micromechanical motions with in the Organ of Corti complex using a collection of spatially resolved one-dimensional OCT measurements. I can be reached at b.frost@columbia.edu
 
