@@ -1,11 +1,1 @@
-AtB = L"\begin{equation}
-\left[
-\begin{array}{cccc}
-a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{y} b_{z} - a_{z} b_{y} & a_{z} b_{x} - a_{x} b_{z} & a_{x} b_{y} - a_{y} b_{x} \\
-a_{z} b_{y} - a_{y} b_{z} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{x} b_{y} - a_{y} b_{x} & a_{x} b_{z} - a_{z} b_{x} \\
-a_{x} b_{z} - a_{z} b_{x} & a_{y} b_{x} - a_{x} b_{y} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} & a_{y} b_{z} - a_{z} b_{y} \\
-a_{y} b_{x} - a_{x} b_{y} & a_{z} b_{x} - a_{x} b_{z} & a_{z} b_{y} - a_{y} b_{z} & a_{x} b_{x} + a_{y} b_{y} + a_{z} b_{z} \\
-\end{array}
-\right]
-\end{equation}
-"
+Failed to precompile Symbolics [0c5d862f-8b57-4792-8d23-62f2024744c7] to /home/runner/.julia/compiled/v1.7/Symbolics/jl_sukkbY.

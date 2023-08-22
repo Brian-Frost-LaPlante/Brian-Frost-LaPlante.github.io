@@ -1,4 +1,1 @@
-qw = L"\begin{equation}
-q_{0} w_{0} + i \left( q_{0} w_{1} + q_{1} w_{0} + q_{2} w_{3} - q_{3} w_{2} \right) + j \left( q_{2} w_{0} + q_{3} w_{1} + q_{0} w_{2} - q_{1} w_{3} \right) + k \left( q_{3} w_{0} + q_{0} w_{3} + q_{1} w_{2} - q_{2} w_{1} \right) - q_{1} w_{1} - q_{2} w_{2} - q_{3} w_{3}
-\end{equation}
-"
+Failed to precompile Symbolics [0c5d862f-8b57-4792-8d23-62f2024744c7] to /home/runner/.julia/compiled/v1.7/Symbolics/jl_ZoXOBv.
