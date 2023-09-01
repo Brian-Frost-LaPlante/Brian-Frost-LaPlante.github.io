@@ -38,3 +38,16 @@ In August of 2023, I finished the first draft of my doctoral thesis. In light of
 ~~~
 @@
 @@
+
+## Manhattan
+
+J. Hood Wright Park
+
+Mitchel Square
+
+St. Nicholas Park
+
+Montefiore Square
+
+Golden Swan
+
