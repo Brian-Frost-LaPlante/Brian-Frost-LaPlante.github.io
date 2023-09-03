@@ -51,7 +51,7 @@ St. Nicholas Park
 
 Montefiore Square
 
-Union Square
+Union Square Park
 
 Stuyvesant Square
 
