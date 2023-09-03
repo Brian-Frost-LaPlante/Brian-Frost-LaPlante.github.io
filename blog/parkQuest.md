@@ -45,9 +45,19 @@ J. Hood Wright Park
 
 Mitchel Square
 
+Jackie Robinson Park
+
 St. Nicholas Park
 
 Montefiore Square
 
-Golden Swan
+Union Square
+
+Stuyvesant Square
+
+Abe Lebewohl Park
+
+Cooper Triangle
+
+Golden Swan Garden
 
