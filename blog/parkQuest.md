@@ -39,6 +39,16 @@ In August of 2023, I finished the first draft of my doctoral thesis. In light of
 @@
 @@
 
+## The Bronx
+
+Bronx Park
+
+## Brooklyn
+
+Doctor Ronald McNair Park
+
+Mount Prospect Park
+
 ## Manhattan
 
 J. Hood Wright Park
@@ -47,9 +57,13 @@ Mitchel Square
 
 Jackie Robinson Park
 
+Johnny Hartman Square
+
 St. Nicholas Park
 
 Montefiore Square
+
+Central Park
 
 Union Square Park
 
